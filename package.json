@@ -1,0 +1,24 @@
+{
+  "name": "teltonika-parser-fix",
+  "version": "1.0.0",
+  "description": "Fix of previous version by vishwacshetty99@gmail.com @package - teltonika-parser-extended. Added support for parsing values of unsigned ints correctly in codec8 extended in TFT100 devices. Also support code7, codec8 and codec8 extended protocols.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakharsr/teltonika-parser-fix.git"
+  },
+  "keywords": [
+    "teltonika",
+    "parser"
+  ],
+  "author": "Prakhar Sharma",
+  "email": "prakhar03sharma@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakharsr/teltonika-parser-fix/issues"
+  },
+  "homepage": "https://github.com/prakharsr/teltonika-parser-fix#readme"
+}
