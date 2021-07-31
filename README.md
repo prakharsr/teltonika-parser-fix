@@ -7,13 +7,13 @@ Right now supported Codec8, Codec8 extended and Codec7 format.
 
 Run console command
 
-`npm i teltonika-parser-extended`
+`npm i teltonika-parser-fix`
 
 
 ### Usage example ###
 
 `const net = require('net');
- const Parser = require('teltonika-parser-extended');
+ const Parser = require('teltonika-parser-fix');
  const binutils = require('binutils64');
  
  
