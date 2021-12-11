@@ -37,6 +37,10 @@ class Codec {
         return parseInt(bytes.toString('hex'), 16);
     }
 
+    toHex(bytes) {
+        return bytes.toString('hex');
+    }
+
     toString(bytes){
         return bytes.toString('utf8');
     }

@@ -191,7 +191,12 @@ class Codec8e extends Codec {
 
         for (var i = 0; i < ioCountInt64; i++) {
             let property_id = this.toInt(this.reader.ReadBytes(2));
-            let value = this.reader.ReadDouble();
+            let value = null;
+            if(property_id >= 900 && property_id <= 929) {
+                value = this.toHex(this.reader.ReadBytes(8));
+            } else {
+                value = this.reader.ReadDouble();
+            }
             ioElement.push({
                 id        : property_id, value: value,
                 label     : this.ioElements()[property_id] ? this.ioElements()[property_id].label : "",
